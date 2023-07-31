@@ -124,7 +124,11 @@ export default function Form2() {
           </div>
           <div className="flex justify-center items-center h-full md:w-1/2 w-5/6 p-3">
             <img
-              src={`${formType === "signin" ? "/nextjs.png" : "/reactjs.png"}`}
+              src={`${
+                formType === "signin"
+                  ? "/form-react/nextjs.png"
+                  : "/form-react/reactjs.png"
+              }`}
               alt=""
               className="h-full w-full md:h-4/5 md:w-4/5"
             />
