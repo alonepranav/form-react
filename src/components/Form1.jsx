@@ -8,7 +8,7 @@ export default function Form1() {
   });
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    e.preventDefault(); 
     console.log(data);
   };
 
