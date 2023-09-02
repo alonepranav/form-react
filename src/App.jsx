@@ -17,6 +17,7 @@ import Form15 from "./components/Form15";
 import Form16 from "./components/Form16";
 import Form17 from "./components/Form17";
 import Form18 from "./components/Form18";
+import Form19 from "./components/Form19";
 import Home from "./components/Home";
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
       <Form16 />
       <Form17 />
       <Form18 />
+      <Form19 />
     </>
   );
 }

@@ -48,16 +48,24 @@ export default function Home() {
           <span className="text-base my-6 block font-semibold">
             Packages used :
           </span>
-          <br />
+          {/* <br /> */}
         </p>
-        <div className="flex flex-col gap-1 justify-center items-center">
-          <span>react" : ^18.2.0",</span>
+        <div className="flex flex-col justify-center items-center">
+          {/* <span>react" : ^18.2.0",</span>
           <span>react-icons : "^4.10.1"</span>
           <span>autoprefixer : "^10.4.14",</span>
           <span>tailwindcss : ":.3.2",</span>
           <span>postcss : "^8.4.24",</span>
-          <span>vite : "^4.3.9"</span>
+          <span>vite : "^4.3.9"</span> */}
+
+          <span>react,</span>
+          <span>react-icons,</span>
+          {/* <span>autoprefixer,</span> */}
+          <span>tailwindcss,</span>
+          {/* <span>postcss,</span> */}
+          <span>vite,</span>
         </div>
+
         <p className="text-2xl font-semibold">
           <br />
           <br />
